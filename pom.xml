@@ -15,16 +15,16 @@
         <!-- A workaround for a bug in PMD -->
         <sourceJdk>1.8</sourceJdk>
         <targetJdk>1.8</targetJdk>
-        <github.account>wakaleo</github.account>
+        <github.account>ChanakanMaa</github.account>
         <thucydides.version>1.8.4</thucydides.version>
-        <jelastic.context>gameoflife</jelastic.context>
-        <jelastic.environment>wakaleo</jelastic.environment>
+        <jelastic.context>auto-manage</jelastic.context>
+        <jelastic.environment>ChanakanMaa</jelastic.environment>
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
-        <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
+        <connection>scm:git:git@github.com:${github.account}/auto-manage.git</connection>
+        <developerConnection>scm:git:git@github.com:${github.account}/auto-manage.git</developerConnection>
+        <url>scm:git:git@github.com:${github.account}/auto-manage.git</url>
     </scm>
     <build>
         <plugins>
@@ -169,9 +169,9 @@
         </pluginManagement>
         <extensions>
             <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-webdav-jackrabbit</artifactId>
-                <version>2.2</version>
+                <groupId>sample2</groupId>
+                <artifactId>JenkinsTest</artifactId>
+                <version>1</version>
             </extension>
         </extensions>
     </build>
@@ -207,9 +207,9 @@
     </dependencies>
 
     <modules>
-        <module>gameoflife-build</module>
-        <module>gameoflife-core</module>
-        <module>gameoflife-web</module>
+        <module>auto-manage-build</module>
+        <module>auto-manage-core</module>
+        <module>auto-manage-web</module>
     </modules>
     <profiles>
         <profile>
@@ -411,8 +411,8 @@
                         <version>2.1.1</version>
                         <dependencies>
                             <dependency>
-                                <groupId>com.wakaleo.gameoflife</groupId>
-                                <artifactId>gameoflife-build</artifactId>
+                                <groupId>sample2</groupId>
+                                <artifactId>JenkinsTest-build</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
                         </dependencies>
