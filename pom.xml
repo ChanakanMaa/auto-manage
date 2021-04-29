@@ -5,11 +5,13 @@
   <version>1.0-SNAPSHOT</version>
   
   <distributionManagement>
+<!--
     <repository>
       <id>nexus</id>
       <name>Webapp proxy</name>
       <url>http://192.168.1.151:8081/repository/maven-central/</url>
     </repository>
+-->
     <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot</name>
