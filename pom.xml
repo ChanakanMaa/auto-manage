@@ -8,7 +8,7 @@
     <repository>
       <id>nexus</id>
       <name>Webapp proxy</name>
-      <url>http://192.168.1.150:8081/repository/webapp-proxy/</url>
+      <url>http://192.168.1.150:8081/repository/webapp/</url>
     </repository>
     <snapshotRepository>
             <id>nexus</id>
