@@ -1,0 +1,27 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>WebApp</groupId>
+  <artifactId>Webapp-proxy</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  
+  <distributionManagement>
+    <repository>
+      <id>WebApp</id>
+      <name>Webapp proxy</name>
+      <url>http://192.168.1.150:8081/repository/webapp-proxy/</url>
+    </repository>
+    <snapshotRepository>
+            <id>WebApp</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://192.168.1.150:8081/repository/webapp-snapshot/</url>
+        </snapshotRepository>
+  </distributionManagement>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+    </dependency>
+  </dependencies>
+</project>
