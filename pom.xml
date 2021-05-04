@@ -1,17 +1,17 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>nexusjen</groupId>
+  <groupId>nexus</groupId>
   <artifactId>nexus-proxy</artifactId>
   <version>1.1.0-SNAPSHOT</version>
   
   <distributionManagement>
     <repository>
-      <id>nexusjen</id>
+      <id>nexus</id>
       <name>Webapp proxy</name>
       <url>http://192.168.1.167:8081/repository/maven-central/</url>
     </repository>
     <snapshotRepository>
-            <id>nexusjen</id>
+            <id>nexus</id>
             <name>Internal Snapshot</name>
             <url>http://192.168.1.167:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
