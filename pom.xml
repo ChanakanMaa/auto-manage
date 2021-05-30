@@ -8,12 +8,12 @@
     <repository>
       <id>nexus</id>
       <name>Webapp proxy</name>
-      <url>https://192.168.1.155/repository/maven-central/</url>
+      <url>http://192.168.1.184:8081/repository/maven-central/</url>
     </repository>
     <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot</name>
-            <url>https://192.168.1.155/repository/maven-snapshots/</url>
+            <url>http://192.168.1.184:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
   </distributionManagement>
   
