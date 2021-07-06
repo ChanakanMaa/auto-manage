@@ -1,3 +1,4 @@
+<!--
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>nexus</groupId>
@@ -25,3 +26,4 @@
     </dependency>
   </dependencies>
 </project>
+-->
